@@ -1,0 +1,11 @@
+win系统下更新git  命令行 	        git update-git-for-windows
+git查看版本号                       git --version
+工作区提交暂存区			        git add 文件名/*.文件类型/git add .全提交
+config设置                         git config --global user.name/user.email
+config保存用户名和密码              git config --global credential.helper store
+config设置查看                      git config --list
+新建版本库/本地仓库                 git init (产生.git隐藏文件/绿色图标表示存在git管理)  git init my-repo //创造git管理的文件夹
+从远程仓库创建本地仓库               git clone + 网址
+查看仓库状态                        git status
+暂存区提交本地仓库                  git commit -m "xxx" /git commit ----进入交互区vim 输入提交信息
+查看提交记录                        git log --oneline(simple show)
