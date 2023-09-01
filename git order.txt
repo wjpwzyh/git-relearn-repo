@@ -9,3 +9,8 @@ config设置查看                      git config --list
 查看仓库状态                        git status
 暂存区提交本地仓库                  git commit -m "xxx" /git commit ----进入交互区vim 输入提交信息
 查看提交记录                        git log --oneline(simple show)
+回退版本                            git reset --soft(工作区暂存区全保存) --hard(工作区暂存区全舍弃)  --mixed(工作区保存暂存区舍弃)+版本号
+                                    soft/mixed 主要用于版本合并提交 soft直接commit mixed需重新add      hard 主要用于放弃所有修改
+版本误操作                          git reflog 查看所有版本号  git reset --hard xxxxx回退到指定版本
+版本库差异对比                      git diff --比较暂存区和工作区/git diff HEAD --比较版本库和工作区/git diff --cached --比较版本库和暂存区
+特定版本差异对比                    git diff xxx xxx 版本号/分支名 git diff HEAD~/^ HEAD + 文件名 --只比较单文件
