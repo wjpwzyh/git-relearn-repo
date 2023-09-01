@@ -1,2 +1,37 @@
 *.log
 temp/
+# ignore stm32-build、all .bak/.bin/.elf/.hex/.map/*.uvguix.*
+ProjectSTM32F407/build
+*.bak
+*.bin
+*.elf
+*.hex
+*.map
+*.uvguix.*
+Doc
+build
+Build
+# ignore Doc build Build .vscode
+.vscode
+.*
+# all .* 所有隐藏文件 *.exe *.log *.sh *. onnx fc_log *.ini
+*.code-workspace
+*.exe
+.gitignore
+__pycache__
+*.pyc
+*.pyo
+*.log
+*.test.*
+*.onnx
+fc_log
+test*
+*.ini
+*.sh
+*.cfg
+
+
+# track all lib.a 且/TODO限制为当前目录、build/没有限制、doc/*.txt----忽略doc/note.txt,但不忽略 doc/server/arch.txt
+!lib.a  
+# 忽略doc/ 目录及其所有子目录下的 .pdf文件
+doc/**/*.pdf

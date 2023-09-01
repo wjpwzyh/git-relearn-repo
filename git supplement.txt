@@ -9,3 +9,6 @@
 5. .gitignore文件：忽略不加入版本库文件----忽略系统自动生成/编译中间文件/日志临时缓存/身份敏感文件
     .gitignore生效的前提条件，该文件未提交到版本库中，已提交文件不受.gitignore影响
 6. git默认不把空文件夹放入版本库
+7..gitignore匹配规则：*--任意字符、？--单个字符、[]--匹配列表中的单个字符、**--匹配任意的中间目录、中括号可以使用短中线连接、！--取反
+8.新的github仓库--Set up GitHub Copilot   Use GitHub's AI pair programmer to autocomplete suggestions as you code.
+    本地创建仓库-远程关联/远程关联已有仓库/导入其他仓库SVN-----------https--push要验证身份和密码/ssh--push不需要验证但要添加ssh公钥
