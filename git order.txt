@@ -6,7 +6,7 @@ config保存用户名和密码              git config --global credential.helpe
 config设置查看                      git config --list
 新建版本库/本地仓库                 git init (产生.git隐藏文件/绿色图标表示存在git管理)  git init my-repo //创造git管理的文件夹
 从远程仓库创建本地仓库               git clone + 网址
-查看仓库状态                        git status
+查看仓库状态                        git status  -s 缩写 简洁
 暂存区提交本地仓库                  git commit -m "xxx" /git commit ----进入交互区vim 输入提交信息
 查看提交记录                        git log --oneline(simple show)
 回退版本                            git reset --soft(工作区暂存区全保存) --hard(工作区暂存区全舍弃)  --mixed(工作区保存暂存区舍弃)+版本号
@@ -14,3 +14,6 @@ config设置查看                      git config --list
 版本误操作                          git reflog 查看所有版本号  git reset --hard xxxxx回退到指定版本
 版本库差异对比                      git diff --比较暂存区和工作区/git diff HEAD --比较版本库和工作区/git diff --cached --比较版本库和暂存区
 特定版本差异对比                    git diff xxx xxx 版本号/分支名 git diff HEAD~/^ HEAD + 文件名 --只比较单文件
+版本库删除文件                      rm xxx--git add--git commit/   git rm xxx ---同时在工作区和暂存区删除，仍需要提交版本库
+                                    git rm --cached xxx-----仅删除暂存区文件/git rm -r* 递归删除某个目录下所有文件-r*
+查看暂存区文件                      git ls-files
