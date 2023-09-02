@@ -33,3 +33,4 @@ config设置查看                      git config --list
 合并冲突，中断合并                  git merge --abort
 变基、嫁接融合分支                  git rebase xxx    存在不同的合并顺序
 切换到过往分支版本                  git checkout -b dev xxx --版本号
+标记版本号                          git tag
