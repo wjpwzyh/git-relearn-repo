@@ -24,3 +24,5 @@
 17.分支有自己的提交记录、适合团队协作，多人开发合作再合并主线代码库，或者建立一个问题修复分支进行bug处理，减少冲突和错误
 18.git checkout存在歧义，既可用于恢复文件git checkout也用于切换分支，新版命令 git switch
 19.merge合并分支之后仍然存在dev分支，需要通过git branch -d 删除多余分支
+20.分支冲突、手动解决冲突问题 git status 和git diff 修改提交完成合并内容
+21.rebase变基 嫁接移植，整个改动移动到rebase目标分支后面
