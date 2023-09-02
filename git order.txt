@@ -23,4 +23,4 @@ config设置查看                      git config --list
 添加远程仓库                        git remote add <shortname><url>
 查看当前仓库对应的远程仓库的别名和地址git remote -v             --对应origin
 指定分支的名称为main                git branch -M main
-本地与远程origin的main相关联        git push -u origin main
+本地与远程origin的main相关联        git push -u origin main:main    -u是upstream的缩写 关联   main:main  本地:远程
