@@ -17,3 +17,6 @@ config设置查看                      git config --list
 版本库删除文件                      rm xxx--git add--git commit/   git rm xxx ---同时在工作区和暂存区删除，仍需要提交版本库
                                     git rm --cached xxx-----仅删除暂存区文件/git rm -r* 递归删除某个目录下所有文件-r*
 查看暂存区文件                      git ls-files
+克隆远程仓库                        git clone +https/ssh xxx
+远程仓库修改同步到本地              git pull <remote> <branch>
+本地仓库修改同步到远程              git push <remote>
