@@ -14,4 +14,5 @@
     本地创建仓库-远程关联/远程关联已有仓库/导入其他仓库SVN-----------https--push要验证身份和密码/ssh--push不需要验证但要添加ssh公钥
 9.配置ssh权限--进入根目录cd---进入.ssh目录---ssh-keygen -t rsa -b 4096指定协议和大小---生成id_rsa密钥文件---私钥和公钥
 10.如果多次创建密钥，需要使用--tail -5 config --配置IdentityFile ~/.ssh/test  才能使用
-11.
+11.github支持在线编辑文件，同时别人提交的内容也可以直接pull下来
+12.
