@@ -28,3 +28,6 @@ config设置查看                      git config --list
 查看所有分支内容                    git branch   + xxx 创建新的分支内容
 切换到不同的分支                    git checkout xxx            // git switch 专门用于切换分支
 分支合并提交                        git merge xxx 分支名
+查看分支图                          git log --graph --oneline --decorate --all
+删除已经合并的分支                  git branch -d xxx   -D xxx ---强制删除分支
+ 
