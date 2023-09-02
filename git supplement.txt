@@ -15,4 +15,8 @@
 9.配置ssh权限--进入根目录cd---进入.ssh目录---ssh-keygen -t rsa -b 4096指定协议和大小---生成id_rsa密钥文件---私钥和公钥
 10.如果多次创建密钥，需要使用--tail -5 config --配置IdentityFile ~/.ssh/test  才能使用
 11.github支持在线编辑文件，同时别人提交的内容也可以直接pull下来
-12.
+12.git pull执行后会进行合并操作，没有冲突则合并成功；git fetch也是获取远程仓库的修改，但并不会自动合并到本地仓库中，需要手动合并
+13.gitee 国内| gitlab 私有化服务器！！   gitee创建时只能选择为私有仓库，创建后可更改为公开仓库
+14.github GUI工具 GitHub Desktop --简单的远程仓库管理工具、SourceTree和TortoiseGit--功能强大的GUI工具
+15.vscode 配置 Ctrl+Shift+P 打开命令行 setting 打开用户设置  源码管理器
+16.源码管理器 点击文件==git diff  左一图标==打开文件 左二图标==放弃更改 左三图标==提交到暂存区 git add

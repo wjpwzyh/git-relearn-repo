@@ -20,8 +20,8 @@ config设置查看                      git config --list
 克隆远程仓库                        git clone +https/ssh xxx
 远程仓库修改同步到本地              git pull <remote> <branch>
 本地仓库修改同步到远程              git push <remote>
-添加远程仓库                        git remote add <shortname><url>
+添加远程仓库                        git remote add <shortname><url>   可添加对应多个平台的远程仓库
 查看当前仓库对应的远程仓库的别名和地址git remote -v             --对应origin
 指定分支的名称为main                git branch -M main
 本地与远程origin的main相关联        git push -u origin main:main    -u是upstream的缩写 关联   main:main  本地:远程 需要配置ssh密钥无法通过密码HTTPS
-拉取远程仓库内容                    git pull <远程仓库名> <远程分支名>:<本地分支名>
+拉取远程仓库内容                    git pull <远程仓库名> <远程分支名>:<本地分支名>   git pull origin main----origin main省略默认main ---分支名相同和省略后边
