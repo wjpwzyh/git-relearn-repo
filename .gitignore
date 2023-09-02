@@ -29,7 +29,7 @@ test*
 *.ini
 *.sh
 *.cfg
-
+!test.py
 
 # track all lib.a 且/TODO限制为当前目录、build/没有限制、doc/*.txt----忽略doc/note.txt,但不忽略 doc/server/arch.txt
 !lib.a  

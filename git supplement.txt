@@ -20,3 +20,4 @@
 14.github GUI工具 GitHub Desktop --简单的远程仓库管理工具、SourceTree和TortoiseGit--功能强大的GUI工具
 15.vscode 配置 Ctrl+Shift+P 打开命令行 setting 打开用户设置  源码管理器
 16.源码管理器 点击文件==git diff  左一图标==打开文件 左二图标==放弃更改 左三图标==提交到暂存区 git add
+    ？？--未跟踪 M--已修改 A--已添加暂存 D--已删除 R--重命名 U--已更新未合并
